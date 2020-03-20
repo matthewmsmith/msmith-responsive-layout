@@ -8,13 +8,14 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   background-color: white;
+  
 }
 
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
-  margin: 1em;
+  margin: 2em;
 }
  p {
   line-height: 1.6em;
@@ -34,9 +35,12 @@ img {
 
 .header-wrapper {
   background-color: rgb(241, 241, 241);
-  padding: 3em;
+  padding-top: 3em;
+  
+  
 
 }
+
 
 .name {
   margin-top: 0;
@@ -47,6 +51,7 @@ ul {
   margin: .4em;
  
 }
+
 .list-item {
   list-style-type: none;
   text-transform: uppercase;
@@ -54,7 +59,7 @@ ul {
   padding: 1em;
 
 }
-list-links {
+.list-links {
   text-decoration: none;
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
@@ -67,19 +72,24 @@ list-links {
 .contact-info {
   background-color:  rgb(241, 241, 241);
   padding-top: 2em;
-  
+
 }
 span {
   font-weight: bolder;
+  
 }
 li {
   padding: .5em;
+
+}
+.email {
+  margin-bottom: 4em;
 }
 .footer-name {
-  font-weight: bolder;
   margin-top: 2.5em;
   margin-left: .8em;
   float: left;
+  font-weight: bold;
 }
 .back-to-top {
  margin-top: 2.5em;
@@ -87,4 +97,8 @@ li {
  float:right;
  text-transform: uppercase;
  text-decoration: none;
+ color:black;
+ font-weight: bold;
+
+
 }
