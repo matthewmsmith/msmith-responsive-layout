@@ -4,78 +4,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Responsive layout</title>
 </head>
 
 <body>
-
-  <div class="wrapper-header">
-    <header>
-      <h1>Matthew Smith</h1>
+      <div class="header-wrapper">
+      <header>
+      <h1 class="name">Matthew Smith</h1>
       <nav>
         <ul>
-          <li><a href="#top">home</a></li>
+          <li class="list-item"><a  class="list-links" href="#top">home</a></li>
         </ul>
         <ul>
-          <li><a href="">portfolio</li>
+          <li class="list-item"><a class="list-links" href="#portfolio">portfolio</a></li>
         </ul>
         <ul>
-          <li><a href="">contact</a></li>
+          <li class="list-item" ><a class="list-links" href="#contact">contact</a></li>
         </ul>
       </nav>
+      
+      <img class="profile-image" src="images/responsive-layout-profile.png" alt="mockup profile picture">
       <p>Hi! I am a front-end developer who loves responsive design and css. I recently finished finished a degree in
         front-end development at Treehouse. It is a bootcamp like coding experience just online. I am excited to put all
         my skills to use!</p>
-      <img src="images/responsive-layout-profile.png" alt="mockup profile picture">
-    </header>
-  </div>
+      </header>
+    </div>
+  
 
-  <div class="wrapper-main">
-    <div class="portfolio-items">
-      <h2 class="portfolio-header">portfolio</h2>
+  <div class="main-wrapper" id="portfolio">
+    <div class="portfolio-items" >
+      <h2 class="portfolio-header" id="portfolio">portfolio</h2>
       <img src="images/portfolio-1.png" alt="portfolio image">
     </div>
-    <div class="marketing-items">
+    <div class="portfolio-items">
       <h2 class="portfolio-header">marketing</h2>
       <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
       <img src="images/portfolio-2.png" alt="marketing image">
     </div>
-    <div class="search-items">
+    <div class="portfolio-items">
       <h2 class="portfolio-header">search page</h2>
       <p>This project searches through a specific database to find information that the user is trying to look up.</p>
       <img src="images/portfolio-3.png" alt="search image">
     </div>
-    <div class="travel-items">
+    <div class="portfolio-items">
       <h2 class="portfolio-header">travel app</h2>
       <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
       <img src="images/portfolio-4.png" alt="travel image">
     </div>
-    <div class="map-items">
+    <div class="portfolio-items">
       <h2 class="portfolio-header">map of favorite sports</h2>
       <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
       <img src="images/portfolio-5.png" alt="map image">
     </div>
-    <div class="gallery-items">
+    <div class="portfolio-items">
       <h2 class="portfolio-header">photo gallery</h2>
       <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
       <img src="images/portfolio-6.png" alt="gallery image">
     </div>
-    <div class="calc-items">
+    <div class="portfolio-items">
       <h2 class="portfolio-header">calculator</h2>
       <p>Someone can enter in the numbers they want, and press the big blue button and get the results.</p>
-      <img src="images/portfolio-1.png" alt="portfolio image">
+      
     </div>
   </div>
 
-<footer>
-  <p>If youre interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-  <br>
-  <p>Phone <span>269-234-7324</span></p>
-  <p class="email">Email <span>matthewmsmith1992@gmail.com</span></p>
-  <hr>
-<p class="footer-name">matthew smith</p>
-<p><a class="back-to-top"href="#top">back to top</a></p>
+<footer class="contact-info" id="contact">
+ <h2>Contact</h2>
+ <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
+ </p>
+<ul>
+  <li >phone <span>222-222-222</span></li>
+  <li>Email <span>matthewmsmith1992@gmail.com</span></li>
+</ul>
+ <hr>
+  <p class="footer-name">Matthew Smith</p> <a href="#top" class="back-to-top">back to top</a>
 </footer>
 
 
