@@ -52,14 +52,14 @@ ul {
  
 }
 
-.list-item {
+.nav-items{
   list-style-type: none;
   text-transform: uppercase;
   background-color: white;
   padding: 1em;
 
 }
-.list-links {
+.nav-link{
   text-decoration: none;
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
@@ -67,7 +67,6 @@ ul {
   padding-left: 5em;
   padding-right: 5em;
   
-
 }
 .contact-info {
   background-color:  rgb(241, 241, 241);
@@ -105,29 +104,30 @@ li {
 @media (min-width: 768px) {
  
   .header-wrapper {
-    padding-bottom: 25em;
+    padding-bottom: 25em
   }
 
-  ul {
-   display: inline-block;
+nav {
+   display: flex;
+  justify-content: center; 
+
+  
   }
 
-  .list-item {
+  .nav-items {
+    margin: 0;
+    padding: 0;
     background-color: rgb(241, 241, 241);    
-   
+    
   }
+ 
 
-  .list-links {
-   padding: 0;
-   
-  }
+
   .profile-image {
     width: 50%;
-    
     float: right;
     padding: 1em;
     
-
   }
   .introduction{
     float: left;
@@ -137,12 +137,22 @@ li {
   }
 
 
- 
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 
-  
+}
+.flex-item {
+  width: 50%;
+
+}
+
   li{
     list-style: none;
   }
  
+}
+@media (min-width: 1024px){
+
 }
