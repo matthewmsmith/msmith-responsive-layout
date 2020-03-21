@@ -102,3 +102,52 @@ li {
 
 
 }
+@media (min-width: 768px) {
+ 
+  .header-wrapper {
+    padding-bottom: 25em;
+  }
+
+  ul {
+   display: inline-block;
+  }
+
+  .list-item {
+    background-color: rgb(241, 241, 241);    
+   
+  }
+
+  .list-links {
+   padding: 0;
+   
+  }
+  .profile-image {
+    width: 50%;
+    
+    float: right;
+    padding: 1em;
+    
+
+  }
+  .introduction{
+    float: left;
+    position: absolute;
+    width: 50%;
+    padding: 4.5em 1.5em 1em;
+  }
+  .main-wrapper {
+    width: 90%;
+
+  
+
+}
+.portfolio-items {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+}
+.profile-image{
+position: absolute;
+}
+
+}
