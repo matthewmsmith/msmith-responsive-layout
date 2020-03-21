@@ -132,22 +132,22 @@ li {
   .introduction{
     float: left;
     position: absolute;
-    width: 50%;
+    width: 40%;
     padding: 4.5em 1.5em 1em;
   }
-  .main-wrapper {
-    width: 90%;
 
-  
+  .portfolio-image{
+    width: 50%;
+    margin: 1em;
+    padding: 1em;
+  }
+  .portfolio-image2 {
+    width: 45%;
+    padding: 1em;
+    margin: 1em;
+    float: right;
+  }
+  .main-info {
 
-}
-.portfolio-items {
-  position: relative;
-  display: inline-block;
-  width: 45%;
-}
-.profile-image{
-position: absolute;
-}
-
+  }
 }
