@@ -3,19 +3,26 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   display: block;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
   
 }
 .nav-footer {
   display: none;
 }
+.name-footer {
+ float:left;
+  padding-top: .5em;
+  padding-left: .5em;
+  
+}
 
 h1, h2, h3, h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   margin: 2em;
 }
@@ -72,8 +79,10 @@ ul {
   
 }
 .contact-info {
+ 
   background-color:  rgb(247, 244, 244);
   padding-top: 2em;
+  padding-bottom: 5em;
 
 }
 span {
@@ -87,24 +96,24 @@ li {
 .email {
   margin-bottom: 4em;
 }
-.footer-name {
-  margin-top: 2.5em;
-  margin-left: .8em;
-  float: left;
-  font-weight: bold;
-}
+
 .back-to-top {
- margin-top: 2.5em;
- margin-right: .8em;
+padding-top: .5em;
+padding-right: .5em;
  float:right;
  text-transform: uppercase;
  text-decoration: none;
  color:black;
- font-weight: bold;
+ 
 
 
 }
-
+.name {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+   
+  }
 @media (min-width: 768px) {
  
   .header-wrapper {
@@ -151,18 +160,35 @@ li {
   li{
     list-style: none;
   }
- 
-  .back-to-top {
+
+.back-to-top {
     display:  none;
   }
+  .nav-footer {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    margin-right: 2em;
+  }
+  .nav-link{
+    padding: 0;
+    
+  }
+ .name {
+ text-transform: uppercase;
+ float: left;
+ padding-top: .5em;
+ padding-left: 3em;
+
+  
+ }
+
 }
 
 
 @media (min-width: 1024px) {
 
-  .name {
-    text-align: left;
-  }
+  
 
   .header-wrapper {
     padding-bottom: 25em;
@@ -171,6 +197,8 @@ li {
 .nav-items{
   display: flex;
   justify-content: flex-end;
+  padding-right: 1em;
+  padding-bottom: 3em;
 
 }
 
@@ -182,9 +210,9 @@ li {
 
 
   .profile-image {
-    width: 50%;
+    width: 36%;
     float: right;
-    margin-right: .4em;
+    margin-right: 4em;
     
   }
   .introduction{
@@ -202,7 +230,7 @@ li {
  justify-content: center;
 }
 .flex-item {
-  width: 30%;
+  width: 33%;
 
 }
 
