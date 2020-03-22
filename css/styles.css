@@ -34,11 +34,8 @@ img {
 }
 
 .header-wrapper {
-  background-color: rgb(241, 241, 241);
-  padding-top: 3em;
-  
-  
-
+  background-color: rgb(247, 244, 244);
+  padding-top: 2em;
 }
 
 
@@ -55,21 +52,25 @@ ul {
 .nav-items{
   list-style-type: none;
   text-transform: uppercase;
-  background-color: white;
-  padding: 1em;
+  margin: 1em;
 
+}
+.nav-item{
+  background-color: rgb(255, 255, 255);
+  margin-bottom: .3em;
 }
 .nav-link{
   text-decoration: none;
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: larger;
+
   padding-left: 5em;
   padding-right: 5em;
   
 }
 .contact-info {
-  background-color:  rgb(241, 241, 241);
+  background-color:  rgb(247, 244, 244);
   padding-top: 2em;
 
 }
@@ -104,21 +105,17 @@ li {
 @media (min-width: 768px) {
  
   .header-wrapper {
-    padding-bottom: 25em
+    padding-bottom: 25em;
   }
 
-nav {
-   display: flex;
-  justify-content: center; 
-
-  
-  }
 
   .nav-items {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(241, 241, 241);    
-    
+    display: flex;  
+    justify-content: center;
+  }
+
+  .nav-item {
+    background-color:rgb(247, 244, 244);
   }
  
 
@@ -126,14 +123,14 @@ nav {
   .profile-image {
     width: 50%;
     float: right;
-    padding: 1em;
+    margin-right: .4em;
     
   }
   .introduction{
     float: left;
-    position: absolute;
     width: 40%;
-    padding: 4.5em 1.5em 1em;
+    text-align: left;
+    padding-top:  4em;
   }
 
 
@@ -153,6 +150,52 @@ nav {
   }
  
 }
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
+  .name {
+    text-align: left;
+  }
+
+  .header-wrapper {
+    padding-bottom: 25em;
+  }
+.nav-items{
+  
+}
+
+  .nav-item {
+    background-color:rgb(247, 244, 244);
+  }
+ 
+
+
+  .profile-image {
+    width: 50%;
+    float: right;
+    margin-right: .4em;
+    
+  }
+  .introduction{
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-top:  4em;
+  }
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+.flex-item {
+  width: 30%;
+
+}
+
+  li{
+    list-style: none;
+  }
+ 
 }
