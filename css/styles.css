@@ -5,33 +5,52 @@
 }
 
 body {
+  background-color: #1b1b1b;
+  color: white;
   display: block;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  background-color: white;
-  
+  font-family: 'Open Sans', sans-serif;
+
+
 }
+
+
 .nav-footer {
   display: none;
 }
+
 .name-footer {
- float:left;
+  float: left;
   padding-top: .5em;
   padding-left: .5em;
+
+}
+.about-me {
+  text-align: center;
   
 }
+.about {
+  margin-left: 5em;
+  margin-right: 5em;
+}
 
-h1, h2, h3, h4 {
-  font-family: 'Roboto Condensed', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
   margin: 2em;
+  clear: both;
 }
- p {
+
+p {
   line-height: 1.6em;
   padding-bottom: 2em;
   margin-left: 2em;
   margin-right: 2em;
 }
+
 img {
   width: 90%;
 }
@@ -43,8 +62,11 @@ img {
 }
 
 .header-wrapper {
-  background-color: rgb(247, 244, 244);
+
   padding-top: 2em;
+}
+.home {
+  text-decoration: underline;
 }
 
 
@@ -55,188 +77,190 @@ img {
 
 ul {
   margin: .4em;
- 
+
 }
 
-.nav-items{
+.nav-items {
   list-style-type: none;
   text-transform: uppercase;
   margin: 1em;
-
+  background-color: #1b1b1b;
 }
-.nav-item{
-  background-color: rgb(255, 255, 255);
+
+.nav-items {
   margin-bottom: .3em;
 }
-.nav-link{
+
+.nav-link {
   text-decoration: none;
-  color: black;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-family: 'Open Sans', sans-serif;;
   font-size: larger;
 
   padding-left: 5em;
   padding-right: 5em;
-  
+
 }
+
 .contact-info {
- 
-  background-color:  rgb(247, 244, 244);
+
   padding-top: 2em;
   padding-bottom: 5em;
 
 }
+
 span {
   font-weight: bolder;
-  
+
 }
+
 li {
   padding: .5em;
 
 }
+
 .email {
   margin-bottom: 4em;
 }
 
 .back-to-top {
-padding-top: .5em;
-padding-right: .5em;
- float:right;
- text-transform: uppercase;
- text-decoration: none;
- color:black;
- 
+  padding-top: .5em;
+  padding-right: .5em;
+  float: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+
 
 
 }
+
 .name {
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
-  
-   
-  }
+  font-family: 'Indie Flower', cursive;
+
+
+}
+
 @media (min-width: 768px) {
- 
-  .header-wrapper {
-    padding-bottom: 25em;
-  }
+
+
 
 
   .nav-items {
-    display: flex;  
+    display: flex;
     justify-content: center;
+
   }
 
-  .nav-item {
-    background-color:rgb(247, 244, 244);
-  }
- 
+
 
 
   .profile-image {
-    width: 50%;
+    width: 40%;
     float: right;
     margin-right: .4em;
-    
+
   }
-  .introduction{
+
+  .introduction {
     float: left;
     width: 40%;
     text-align: left;
-    padding-top:  4em;
+    padding-top: 4em;
   }
 
 
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
 
-}
-.flex-item {
-  width: 50%;
+  }
 
-}
+  .flex-item {
+    width: 50%;
 
-  li{
+  }
+
+  li {
     list-style: none;
   }
 
-.back-to-top {
-    display:  none;
+  .back-to-top {
+    display: none;
   }
+
   .nav-footer {
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
     margin-right: 2em;
   }
-  .nav-link{
-    padding: 0;
-    
-  }
- .name {
- text-transform: uppercase;
- float: left;
- padding-top: .5em;
- padding-left: 3em;
 
-  
- }
+  .nav-link {
+    padding: 0;
+
+  }
+
+  .name {
+    text-transform: uppercase;
+    float: left;
+    padding-top: .5em;
+    padding-left: 3em;
+
+
+  }
 
 }
 
 
 @media (min-width: 1024px) {
 
-  
 
-  .header-wrapper {
-    padding-bottom: 25em;
+  .nav-items {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    padding-bottom: 3em;
+
   }
 
-.nav-items{
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 1em;
-  padding-bottom: 3em;
 
-}
-
-  .nav-item {
-    
-    background-color:rgb(247, 244, 244);
-  }
- 
 
 
   .profile-image {
-    width: 36%;
+    width: 30%;
     float: right;
     margin-right: 4em;
-    
+
   }
-  .introduction{
+
+  .introduction {
     float: left;
     width: 40%;
     text-align: left;
-    padding-top:  4em;
+    padding-top: 4em;
   }
 
 
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
- justify-content: center;
-}
-.flex-item {
-  width: 33%;
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
 
-}
+  }
 
-  li{
+  .flex-item {
+    width: 33%;
+
+  }
+
+  li {
     list-style: none;
   }
- 
- 
+
+
 }
