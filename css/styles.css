@@ -213,7 +213,7 @@ li {
 
   .name {
     text-transform: uppercase;
-    float: left;
+  
     padding-top: .5em;
     padding-left: 3em;
 
@@ -233,6 +233,9 @@ li {
     padding-bottom: 3em;
 
   }
+.name {
+display: flex;
+}
 
 
 
@@ -260,6 +263,7 @@ li {
     clear: both;
 
   }
+ 
 
   .flex-item {
     width: 33%;
