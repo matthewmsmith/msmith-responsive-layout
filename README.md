@@ -1,2 +1,3 @@
 # Mobile-first-responsive-layout
- Responsive layout
+
+Designed webpage that looks and function well on multiple screens. Using HTML, CSS, and responsive design. My objective was to showcase my understanding of a mobile-first web page with a layout that adjusts to fit other devices, such as tablets, and desktop displays.
